@@ -1,9 +1,13 @@
 class Casa() {
-    var endereco = "null"
+    var endereco:String? = "null"
     var cor ="null"
+    fun falar (){
 
-}
-fun estardentro(){
-    println()
+        println("Meu endereço é $endereco a cor da minha casa é $cor")
 
+    }
+
+    override fun toString(): String {
+        return "Casa(endereco=$endereco, cor='$cor')"
+    }
 }

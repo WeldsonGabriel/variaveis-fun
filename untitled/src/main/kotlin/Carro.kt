@@ -3,8 +3,13 @@ class Carro() {
     var modelo = "null"
     var cor = "null"
     var tipo = "null"
-}
-fun dirigindo(){
-    println()
+    fun falar (){
 
+        println("Esse é Meu carro, um $marca $modelo da cor $cor ele é um $tipo")
+
+    }
+
+    override fun toString(): String {
+        return "Carro(marca='$marca', modelo='$modelo', cor='$cor', tipo='$tipo')"
+    }
 }

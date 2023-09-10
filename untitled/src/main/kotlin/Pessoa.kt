@@ -1,10 +1,15 @@
 class Pessoa() {
-    var primeiroNome = "Gabriel"
+    var primeiroNome = "null"
     var sobreNome = "null"
-    var idade = "null"
-    var altura = "null"
-}
-fun falar (){
+    var idade:String? = "null"
+    var altura:String? = "null"
 
-    println()
+    fun falar (){
+
+        println("Olá eu sou $primeiroNome $sobreNome, tenho $idade anos de idade e $altura de altura")
+    }
+
+    override fun toString(): String {
+        return "Pessoa(primeiroNome='$primeiroNome', sobreNome='$sobreNome', idade=$idade, altura=$altura)"
+    }
 }
