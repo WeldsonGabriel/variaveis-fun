@@ -1,0 +1,334 @@
+Subject: [PATCH] for
+---
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/.gitignore	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/compiler.xml	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="untitled" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/encodings.xml	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/untitled/src/main/kotlin" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/untitled/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/jarRepositories.xml	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,25 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="mavenCentral" />
++      <option name="name" value="mavenCentral" />
++      <option name="url" value="https://repo1.maven.org/maven2/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/kotlinc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/kotlinc.xml b/.idea/kotlinc.xml
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/kotlinc.xml	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="KotlinJpsPluginSettings">
++    <option name="version" value="1.9.0" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/misc.xml	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/untitled/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/modules.xml	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/variaves-fun.iml" filepath="$PROJECT_DIR$/.idea/variaves-fun.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/variaves-fun.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/variaves-fun.iml b/.idea/variaves-fun.iml
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/variaves-fun.iml	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
++++ b/.idea/vcs.xml	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: untitled/src/main/kotlin/Carro.kt
+===================================================================
+diff --git a/untitled/src/main/kotlin/Carro.kt b/untitled/src/main/kotlin/Carro.kt
+--- a/untitled/src/main/kotlin/Carro.kt	(revision c992bbadfc638916d70aa700f52d5ac9fa703ad2)
++++ b/untitled/src/main/kotlin/Carro.kt	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -3,8 +3,13 @@
+     var modelo = "null"
+     var cor = "null"
+     var tipo = "null"
+-}
+-fun dirigindo(){
+-    println()
++    fun falar (){
++
++        println("Esse é Meu carro, um $marca $modelo da cor $cor ele é um $tipo")
++
++    }
+ 
+-}
+\ No newline at end of file
++    override fun toString(): String {
++        return "Carro(marca='$marca', modelo='$modelo', cor='$cor', tipo='$tipo')"
++    }
++}
+Index: untitled/src/main/kotlin/Casa.kt
+===================================================================
+diff --git a/untitled/src/main/kotlin/Casa.kt b/untitled/src/main/kotlin/Casa.kt
+--- a/untitled/src/main/kotlin/Casa.kt	(revision c992bbadfc638916d70aa700f52d5ac9fa703ad2)
++++ b/untitled/src/main/kotlin/Casa.kt	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -1,9 +1,13 @@
+ class Casa() {
+-    var endereco = "null"
++    var endereco:String? = "null"
+     var cor ="null"
++    fun falar (){
++
++        println("Meu endereço é $endereco a cor da minha casa é $cor")
+ 
+-}
+-fun estardentro(){
+-    println()
++    }
+ 
+-}
+\ No newline at end of file
++    override fun toString(): String {
++        return "Casa(endereco=$endereco, cor='$cor')"
++    }
++}
+Index: untitled/src/main/kotlin/Main.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/untitled/src/main/kotlin/Main.kt b/untitled/src/main/kotlin/Main.kt
+--- a/untitled/src/main/kotlin/Main.kt	(revision c992bbadfc638916d70aa700f52d5ac9fa703ad2)
++++ b/untitled/src/main/kotlin/Main.kt	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -1,7 +1,50 @@
+ fun main() {
+-    val caracteristicaPessoa1 = Pessoa ()
+-    val carroPessoa1 = Carro ()
+-    val casaPessoa1 = Casa ()
+-    
++    val pessoa1 = Pessoa()
++    pessoa1.primeiroNome = "Gabriel"
++    pessoa1.sobreNome = "Borges"
++    pessoa1.idade = "29"
++    pessoa1.altura = "1.69 metros"
++    pessoa1.falar()
++
++    val carroPessoa1 = Carro()
++    carroPessoa1.marca = "Toyota"
++    carroPessoa1.modelo = "Corola"
++    carroPessoa1.cor = "Preto"
++    carroPessoa1.tipo = "Sedan"
++    carroPessoa1.falar()
++
++    val casaPessoa1 = Casa()
++    casaPessoa1.endereco = "Rua: FLor n° 9"
++    casaPessoa1.cor = "Amarela"
++    casaPessoa1.falar()
++
++    //pessoa2
++    val pessoa2 = Pessoa()
++    pessoa2.primeiroNome = "Gabriela"
++    pessoa2.sobreNome = "Borges"
++    pessoa2.idade = "7"
++    pessoa2.altura = "1.35 metros"
++    pessoa2.falar()
+ 
+-}
+\ No newline at end of file
++    val carroPessoa2 = Carro()
++    carroPessoa2.marca = "Honda"
++    carroPessoa2.modelo = "Civic"
++    carroPessoa2.cor = "Branco"
++    carroPessoa2.tipo = "Sedan"
++    carroPessoa2.falar()
++
++    val casaPessoa2 = Casa()
++    casaPessoa2.endereco = "Rua: FLor n° 9"
++    casaPessoa2.cor = "Amarela"
++    casaPessoa2.falar()
++
++    println(pessoa1, carroPessoa1, casaPessoa1, pessoa2, carroPessoa2, casaPessoa2)
++
++
++}
++fun println(pessoa1: Pessoa, carroPessoa1: Carro, casaPessoa1: Casa,
++            pessoa2: Pessoa, carroPessoa2: Carro, casaPessoa2: Casa) {
++
++
++
++}
+Index: untitled/src/main/kotlin/Pessoa.kt
+===================================================================
+diff --git a/untitled/src/main/kotlin/Pessoa.kt b/untitled/src/main/kotlin/Pessoa.kt
+--- a/untitled/src/main/kotlin/Pessoa.kt	(revision c992bbadfc638916d70aa700f52d5ac9fa703ad2)
++++ b/untitled/src/main/kotlin/Pessoa.kt	(revision db5c7c8098442477b0c8f39b8c434f84a8485dd9)
+@@ -1,10 +1,15 @@
+ class Pessoa() {
+-    var primeiroNome = "Gabriel"
++    var primeiroNome = "null"
+     var sobreNome = "null"
+-    var idade = "null"
+-    var altura = "null"
+-}
+-fun falar (){
++    var idade:String? = "null"
++    var altura:String? = "null"
++
++    fun falar (){
+ 
+-    println()
+-}
+\ No newline at end of file
++        println("Olá eu sou $primeiroNome $sobreNome, tenho $idade anos de idade e $altura de altura")
++    }
++
++    override fun toString(): String {
++        return "Pessoa(primeiroNome='$primeiroNome', sobreNome='$sobreNome', idade=$idade, altura=$altura)"
++    }
++}
