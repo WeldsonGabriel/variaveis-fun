@@ -37,14 +37,33 @@ fun main() {
     casaPessoa2.endereco = "Rua: FLor n° 9"
     casaPessoa2.cor = "Amarela"
     casaPessoa2.falar()
+    //3
+    val pessoa3 = Pessoa()
+    pessoa3.primeiroNome = "Mateus"
+    pessoa3.sobreNome = "Borges"
+    pessoa3.idade = "2"
+    pessoa3.altura = "1.10 metros"
+    pessoa3.falar()
 
-    println(pessoa1, carroPessoa1, casaPessoa1, pessoa2, carroPessoa2, casaPessoa2)
+    val carroPessoa3 = Carro()
+    carroPessoa3.marca = "Mitsubishi"
+    carroPessoa3.modelo = "Pajero Full"
+    carroPessoa3.cor = "Vinho"
+    carroPessoa3.tipo = "SUV"
+    carroPessoa3.falar()
+
+    val casaPessoa3 = Casa()
+    casaPessoa3.endereco = "Rua: FLor n° 9"
+    casaPessoa3.cor = "Amarela"
+    casaPessoa3.falar()
+
+    println(pessoa1, carroPessoa1, casaPessoa1, pessoa2, carroPessoa2, casaPessoa2, pessoa3, carroPessoa3, casaPessoa3)
 
 
 }
-fun println(pessoa1: Pessoa, carroPessoa1: Carro, casaPessoa1: Casa,
-            pessoa2: Pessoa, carroPessoa2: Carro, casaPessoa2: Casa) {
-
-
+fun println(
+    pessoa1: Pessoa, carroPessoa1: Carro, casaPessoa1: Casa,
+    pessoa2: Pessoa, carroPessoa2: Carro, casaPessoa2: Casa,
+    pessoa3: Pessoa, carroPessoa3: Carro, casaPessoa3: Casa) {
 
 }
