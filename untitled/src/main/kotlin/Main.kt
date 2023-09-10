@@ -1,4 +1,25 @@
 fun main() {
+    // operadores
+    val conta0 = Logica()
+    conta0.adi()
+    println(conta0)
+
+    val conta1 = Logica()
+    conta1.sub()
+    println(conta1)
+
+    val conta2 = Logica()
+    conta2.mult()
+    println(conta2)
+
+    val conta3 = Logica()
+    conta3.divi()
+    println(conta3)
+
+    val conta4 = Logica()
+    conta4.rest()
+    println(conta4)
+ // obj
     val pessoa1 = Pessoa()
     pessoa1.primeiroNome = "Gabriel"
     pessoa1.sobreNome = "Borges"
@@ -57,7 +78,9 @@ fun main() {
     casaPessoa3.cor = "Amarela"
     casaPessoa3.falar()
 
-    println(pessoa1, carroPessoa1, casaPessoa1, pessoa2, carroPessoa2, casaPessoa2, pessoa3, carroPessoa3, casaPessoa3)
+    println(pessoa1, carroPessoa1, casaPessoa1,
+        pessoa2, carroPessoa2, casaPessoa2,
+        pessoa3, carroPessoa3, casaPessoa3)
 
 
 }
@@ -67,3 +90,4 @@ fun println(
     pessoa3: Pessoa, carroPessoa3: Carro, casaPessoa3: Casa) {
 
 }
+
