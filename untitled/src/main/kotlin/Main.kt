@@ -1,5 +1,19 @@
 fun main() {
-    // operadores
+   //logicos simples
+    val log0 = Racionais()
+    log0.maior()
+    println(log0)
+    val log1 = Racionais()
+    log1.menor()
+    println(log1)
+    val log2 = Racionais()
+    log2.igual()
+    println(log2)
+    val log3 = Racionais()
+    log3.diferente()
+    println(log3)
+
+   /* // operadores
     val conta0 = Logica()
     conta0.adi()
     println(conta0)
@@ -88,6 +102,6 @@ fun println(
     pessoa1: Pessoa, carroPessoa1: Carro, casaPessoa1: Casa,
     pessoa2: Pessoa, carroPessoa2: Carro, casaPessoa2: Casa,
     pessoa3: Pessoa, carroPessoa3: Carro, casaPessoa3: Casa) {
-
+*/
 }
 
