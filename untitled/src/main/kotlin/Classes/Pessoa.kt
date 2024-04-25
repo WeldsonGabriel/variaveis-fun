@@ -1,4 +1,6 @@
-class Pessoa() {
+package Classes
+
+class Pessoa  {
     var primeiroNome = "null"
     var sobreNome = "null"
     var idade:String? = "null"
@@ -10,6 +12,6 @@ class Pessoa() {
     }
 
     override fun toString(): String {
-        return "Pessoa(primeiroNome='$primeiroNome', sobreNome='$sobreNome', idade=$idade, altura=$altura)"
+        return "Classes.Pessoa(primeiroNome='$primeiroNome', sobreNome='$sobreNome', idade=$idade, altura=$altura)"
     }
 }

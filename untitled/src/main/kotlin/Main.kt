@@ -1,17 +1,45 @@
+import Classes.Pessoa
+import Classes.Casa
+import Classes.Carro
+import Classes.Logica
+import Classes.Racionais
+
 fun main() {
- //logicos simples
-    val log0 = Racionais()
-    log0.maior()
-    println(log0)
-    val log1 = Racionais()
-    log1.menor()
-    println(log1)
-    val log2 = Racionais()
-    log2.igual()
-    println(log2)
-    val log3 = Racionais()
-    log3.diferente()
-    println(log3)
+
+    //if e else
+    val cor1: Int = 1
+    val cor2: Int = 2
+    val cor3: Int = 8
+    val cor4: Int = 4
+    val cor5: Int = 2
+
+    val bol1: Boolean = true
+    val bol2: Boolean = false
+
+    val str1: String? = "eu"
+    val str2: String? = "você"
+    val str3: String? = "nós"
+
+    if(bol2){
+        println(str3)
+    }else{
+        println(str1)
+    }
+
+    //logicos simples
+   val log0 = Racionais()
+   log0.maior()
+   println(log0)
+   val log1 = Racionais()
+   log1.menor()
+   println(log1)
+   val log2 = Racionais()
+   log2.igual()
+   println(log2)
+   val log3 = Racionais()
+   log3.diferente()
+   println(log3)
+
 
     // operadores
     val conta0 = Logica()
@@ -33,7 +61,10 @@ fun main() {
     val conta4 = Logica()
     conta4.rest()
     println(conta4)
- // obj
+
+
+
+    // obj
     val pessoa1 = Pessoa()
     pessoa1.primeiroNome = "Gabriel"
     pessoa1.sobreNome = "Borges"
@@ -93,15 +124,15 @@ fun main() {
     casaPessoa3.falar()
 
     println(pessoa1, carroPessoa1, casaPessoa1,
-        pessoa2, carroPessoa2, casaPessoa2,
-        pessoa3, carroPessoa3, casaPessoa3)
+            pessoa2, carroPessoa2, casaPessoa2,
+            pessoa3, carroPessoa3, casaPessoa3)
 
 
-}
-fun println(
-    pessoa1: Pessoa, carroPessoa1: Carro, casaPessoa1: Casa,
-    pessoa2: Pessoa, carroPessoa2: Carro, casaPessoa2: Casa,
-    pessoa3: Pessoa, carroPessoa3: Carro, casaPessoa3: Casa) {
+    }
+    fun println(
+        pessoa1: Pessoa, carroPessoa1: Carro, casaPessoa1: Casa,
+        pessoa2: Pessoa, carroPessoa2: Carro, casaPessoa2: Casa,
+        pessoa3: Pessoa, carroPessoa3: Carro, casaPessoa3: Casa)
+        {
 
-}
-
+    }

@@ -1,4 +1,6 @@
-class Casa() {
+package Classes
+
+class Casa  {
     var endereco:String? = "null"
     var cor ="null"
     fun falar (){
@@ -8,6 +10,6 @@ class Casa() {
     }
 
     override fun toString(): String {
-        return "Casa(endereco=$endereco, cor='$cor')"
+        return "Classes.Casa(endereco=$endereco, cor='$cor')"
     }
 }
